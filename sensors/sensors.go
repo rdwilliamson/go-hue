@@ -48,7 +48,7 @@ type State struct {
 	ButtonEvent int16  `json:"buttonevent,omitempty"`
 	Status      int16  `json:"status,omitempty"`
 	Temperature int16  `json:"temperature,omitempty"`
-	LightLevel  int16  `json:"lightlevel,omitempty"`
+	LightLevel  int32  `json:"lightlevel,omitempty"`
 	Dark        bool   `json:"dark,omitempty"`
 	Daylight    bool   `json:"daylight,omitempty"`
 }
